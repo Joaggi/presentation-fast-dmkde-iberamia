@@ -460,211 +460,197 @@
 
 				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
 					aria-hidden="true">
-					<h1 data-auto-animate-target="">Quantum Mechanics</h1>
-					<h2 data-auto-animate-target="">Brief introduction</h2>
+          <h1 data-auto-animate-target="">Quantum Mechanics</h1>
+          <h2 data-auto-animate-target="">Brief introduction</h2>
 
-					<div class="container">
-						<div class="left-col">
-							<ul>
-								<li>State of a quantum system (QS) \(\psi \in \mathcal{H}\) (vector in a Hilbert space).
-								</li>
-								<li><b>Quantum uncertainty</b>: a QS may be in any superposition of basis states.</li>
-								<li><b>Born rule</b>: probability that a measurement will produce a particular result.
-								</li>
-							</ul>
-						</div>
-						<div class="left-col">
-							<img src="resources/quantum_mechanics_brief_introduction.svg"> </img>
-						</div>
-					</div>
-				</section>
-
-				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="">Quantum Mechanics</h1>
-					<h2 data-auto-animate-target="">Example</h2>
-
-					<div class="container">
-						<img src="resources/quantum_mechanics_example.svg"> </img>
-					</div>
-				</section>
-
-				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="11">Density Matrices</h1>
-					<h2 data-auto-animate-target="11">Are they useful for statistics and ML?</h2>
-					<img src="resources/density_matrix.svg" alt="Websocket" width="45%" style="float: right">
-					<div style="width: 55%;">
-						<div>
-							<ul>
-								<li>A more general model of probability.</li>
-								<li>It combines linear algebra and probability</li>
-								<li>Probability calculations with linear algebra</li>
-
-							</ul>
-						</div>
-					</div>
-				</section>
-
-				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="11">Density Matrices</h1>
-					<h2 data-auto-animate-target="11">Represent a probability function efficiently</h2>
-					<div class="text-image">
-						<div>
-							<ul>
-								<li>Categorical distributions: <b style="color:red">Obvious</b>, but innefficient, not
-									very useful.</li>
-							</ul>
-						</div>
-					</div>
-				</section>
-
-				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="11">Density Matrices</h1>
-					<h2 data-auto-animate-target="11">Represent a probability function efficiently</h2>
-					<div class="text-image">
-						<div>
-							<ul>
-								<li>Categorical distributions: <b style="color:red">Obvious</b>, but innefficient, not
-									very useful.</li>
-								<li>Arbitrary distributions on \(\mathbb{R}^n\): <br><br><b style="color:red">Not
-										obvious</b>, mixtures of non-parametric probability distributions.</li>
-							</ul>
-						</div>
-					</div>
-				</section>
-			</section>
-	
-
-				<section data-auto-animate="running" class="future" style="top: 312px; display: none;" hidden=""
-					aria-hidden="true">
-					<h2 data-auto-animate-target="11">Density Matrix Kernel Density Estimation</h2>
-
-					<div class="text-image">
-							<div>
-								<ul>
-									<li>An efficient approximate version of KDE.</li>
-								</ul>
-							</div>
-					</div>
-				</section>
-
-				<section data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
-					aria-hidden="true">
-					<h2 data-auto-animate-target="11">Density Matrix Kernel Density Estimation</h2>
-
-					<div class="text-image">
-							<div>
-								<ul>
-									<li>An efficient approximate version of KDE.</li>
-									<li>Non-memory based.</li>
-								</ul>
-						</div>
-					</div>
-				</section>
+          <div class="container">
+              <ul>
+                <li>State of a quantum system (QS) \(\psi \in \mathcal{H}\) (vector in a Hilbert space).
+                </li>
+                <li><b>Quantum uncertainty</b>: a QS may be in any superposition of basis states.</li>
+                <li><b>Born rule</b>: probability that a measurement will produce a particular result.
+                </li>
+              </ul>
+          </div>
+        </section>
 
 
-				<section data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
-					aria-hidden="true">
-					<h2 data-auto-animate-target="11">Density Matrix Kernel Density Estimation</h2>
+        <section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+                                                                                                aria-hidden="true">
+          <h1 data-auto-animate-target="11">Density Matrices</h1>
+          <h2 data-auto-animate-target="11">Are they useful for statistics and ML?</h2>
+          <img src="resources/density_matrix.svg" alt="Websocket" width="45%" style="float: right">
+          <div style="width: 55%;">
+            <div>
+              <ul>
+                <li>A more general model of probability.</li>
+                <li>It combines linear algebra and probability</li>
+                <li>Probability calculations with linear algebra</li>
 
-					<div class="text-image">
-							<div>
-								<ul>
-									<li>An efficient approximate version of KDE.</li>
-									<li>Non-memory based.</li>
-									<li>Differentiable.</li>
-								</ul>
-						</div>
-					</div>
-				</section>
+              </ul>
+            </div>
+          </div>
+        </section>
 
+        <section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+                                                                                                aria-hidden="true">
+          <h1 data-auto-animate-target="11">Density Matrices</h1>
+          <h2 data-auto-animate-target="11">Represent a probability function efficiently</h2>
+          <div class="text-image">
+            <div>
+              <ul>
+                <li>Categorical distributions: <b style="color:red">Obvious</b>, but innefficient, not
+                  very useful.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
 
-				<section data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
-					aria-hidden="true">
-					<h2 data-auto-animate-target="11">Density Matrix Kernel Density Estimation</h2>
-
-					<div class="text-image">
-							<div>
-								<ul>
-									<li>An efficient approximate version of KDE.</li>
-									<li>Non-memory based.</li>
-									<li>Differentiable.</li>
-									<li>Two ways of training: optimization free and sgd.</li>
-								</ul>
-						</div>
-					</div>
-				</section>
-
-
-				<section data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
-					aria-hidden="true">
-					<h2 data-auto-animate-target="11">Density Matrix Kernel Density Estimation</h2>
-
-					<div class="text-image">
-						<img src="resources/dmkde_model_shrink.svg" alt="Websocket" width="20%" style="float: right">
-						<div width="50%">
-							<div>
-								<ul>
-									<li>An efficient approximate version of KDE.</li>
-									<li>Non-memory based.</li>
-									<li>Differentiable.</li>
-									<li>Two ways of training: optimization free and sgd.</li>
-									<li>Based on two main ideas:
-									<ul>
-										<li>Random Fourier features to approximate the Gaussian kernel.</li>
-										<li>Density Matrices to represent the PDF.</li>
-									</ul>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</section>
+        <section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+                                                                                                aria-hidden="true">
+          <h1 data-auto-animate-target="11">Density Matrices</h1>
+          <h2 data-auto-animate-target="11">Represent a probability function efficiently</h2>
+          <div class="text-image">
+            <div>
+              <ul>
+                <li>Categorical distributions: <b style="color:red">Obvious</b>, but innefficient, not
+                  very useful.</li>
+                <li>Arbitrary distributions on \(\mathbb{R}^n\): <br><br><b style="color:red">Not
+                    obvious</b>, mixtures of non-parametric probability distributions.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        </section>
 
 
-				<section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="11">KDE and DMKDE</h1>
-				</section>
+        <section data-auto-animate="running" class="future" style="top: 312px; display: none;" hidden=""
+                                                                                               aria-hidden="true">
+          <h2 data-auto-animate-target="11">Density Matrix Kernel Density Estimation</h2>
 
-				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="">KDE using RFF: Linear strategy</h1>
-					<div class="text-image">
-						<img src="resources/kde_linear.svg"> </img>
-					</div>
-				</section>
+          <div class="text-image">
+            <div>
+              <ul>
+                <li>An efficient approximate version of KDE.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
 
-				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-					aria-hidden="true">
-					<h2 data-auto-animate-target="">KDE using RFF: Quadratic strategy</h2>
-					<div class="text-image">
-						<img src="resources/kde_quadratic.svg"> </img>
-					</div>
-				</section>
+        <section data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
+                                                                                                                           aria-hidden="true">
+          <h2 data-auto-animate-target="11">Density Matrix Kernel Density Estimation</h2>
 
-				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-					aria-hidden="true">
-					<h2 data-auto-animate-target="">KDE using RFF: Quadratic strategy</h2>
-					<div class="text-image">
-						<img src="resources/kde_quadratic_2.svg"> </img>
-					</div>
-				</section>
+          <div class="text-image">
+            <div>
+              <ul>
+                <li>An efficient approximate version of KDE.</li>
+                <li>Non-memory based.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
 
 
-				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
-					aria-hidden="true">
-					<h1 data-auto-animate-target="">KDE using RFF</h1>
-					<h2 data-auto-animate-target="">Density Matrix Kernel Density Estimation (DMKDE)</h2>
-					<div class="text-image">
-						<img src="resources/kde_dmkde.svg"> </img>
-					</div>
-				</section>
+        <section data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
+                                                                                                                           aria-hidden="true">
+          <h2 data-auto-animate-target="11">Density Matrix Kernel Density Estimation</h2>
 
-				<section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+          <div class="text-image">
+            <div>
+              <ul>
+                <li>An efficient approximate version of KDE.</li>
+                <li>Non-memory based.</li>
+                <li>Differentiable.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+
+        <section data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
+                                                                                                                           aria-hidden="true">
+          <h2 data-auto-animate-target="11">Density Matrix Kernel Density Estimation</h2>
+
+          <div class="text-image">
+            <div>
+              <ul>
+                <li>An efficient approximate version of KDE.</li>
+                <li>Non-memory based.</li>
+                <li>Differentiable.</li>
+                <li>Two ways of training: optimization free and sgd.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+
+        <section data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
+                                                                                                                           aria-hidden="true">
+          <h2 data-auto-animate-target="11">Density Matrix Kernel Density Estimation</h2>
+
+          <div class="text-image">
+            <img src="resources/dmkde_model_shrink.svg" alt="Websocket" width="20%" style="float: right">
+            <div width="50%">
+              <div>
+                <ul>
+                  <li>An efficient approximate version of KDE.</li>
+                  <li>Non-memory based.</li>
+                  <li>Differentiable.</li>
+                  <li>Two ways of training: optimization free and sgd.</li>
+                  <li>Based on two main ideas:
+                    <ul>
+                      <li>Random Fourier features to approximate the Gaussian kernel.</li>
+                      <li>Density Matrices to represent the PDF.</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <section data-auto-animate="running" class="future" style="top: 312px; display: block;" hidden=""
+                                                                                                aria-hidden="true">
+          <h1 data-auto-animate-target="11">KDE and DMKDE</h1>
+        </section>
+
+        <section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+                                                                                                 aria-hidden="true">
+          <h1 data-auto-animate-target="">KDE using RFF: Linear strategy</h1>
+          <div class="text-image">
+            <img src="resources/kde_linear.svg"> </img>
+          </div>
+        </section>
+
+        <section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+                                                                                                 aria-hidden="true">
+          <h2 data-auto-animate-target="">KDE using RFF: Quadratic strategy</h2>
+          <div class="text-image">
+            <img src="resources/kde_quadratic.svg"> </img>
+          </div>
+        </section>
+
+        <section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+                                                                                                 aria-hidden="true">
+          <h2 data-auto-animate-target="">KDE using RFF: Quadratic strategy</h2>
+          <div class="text-image">
+            <img src="resources/kde_quadratic_2.svg"> </img>
+          </div>
+        </section>
+
+
+        <section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
+                                                                                                 aria-hidden="true">
+          <h1 data-auto-animate-target="">KDE using RFF</h1>
+          <h2 data-auto-animate-target="">Density Matrix Kernel Density Estimation (DMKDE)</h2>
+          <div class="text-image">
+            <img src="resources/kde_dmkde.svg"> </img>
+          </div>
+        </section>
+
+        <section data-auto-animate="pending" class="future" style="top: 99.5px; display: block;" hidden=""
 					aria-hidden="true">
 					<h1 data-auto-animate-target="">KDE using RFF</h1>
 					<h2 data-auto-animate-target="">Density estimation converges in probability to KDE estimation</h2>
@@ -854,7 +840,32 @@
         </ul>
 			</section>
 
+			<section data-auto-animate="running" data-visibility="uncounted" class="future" style="top: 312px; display: none;" hidden=""
+			aria-hidden="true">
+					<h3>Thanks You!</h3>
+					<h4>jagallegom@unal.edu.co</h4>
+        </ul>
+			</section>
 
+
+
+				<section data-auto-animate="pending" data-visibility="uncounted" class="future" style="top: 99.5px; display: block;" hidden=""
+					aria-hidden="true">
+          <h1 data-auto-animate-target="">Quantum Mechanics</h1>
+          <h2 data-auto-animate-target="">Brief introduction</h2>
+
+              <img src="resources/quantum_mechanics_brief_introduction.svg"> </img>
+        </section>
+
+        <section data-auto-animate="pending" data-visibility="uncounted" class="future" style="top: 99.5px; display: block;" hidden=""
+                                                                                                 aria-hidden="true">
+          <h1 data-auto-animate-target="">Quantum Mechanics</h1>
+          <h2 data-auto-animate-target="">Example</h2>
+
+          <div class="container">
+            <img src="resources/quantum_mechanics_example.svg"> </img>
+          </div>
+        </section>
 
 
 
@@ -880,7 +891,7 @@
 		Reveal.initialize({
 			width: 1200,
 			heigth: 800,
-			controls: false,
+			controls: true,
 			progress: true,
 			center: true,
 			hash: true,
